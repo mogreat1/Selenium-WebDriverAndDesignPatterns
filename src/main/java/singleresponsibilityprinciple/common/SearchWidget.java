@@ -4,7 +4,6 @@ import com.google.common.util.concurrent.Uninterruptibles;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import singleresponsibilityprinciple.common.AbstractComponent;
 
 import java.util.concurrent.TimeUnit;
 
