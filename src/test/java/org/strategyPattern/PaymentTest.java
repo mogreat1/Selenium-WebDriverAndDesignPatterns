@@ -9,9 +9,6 @@ import strategyPattern.PaymentOptionFactory;
 import strategyPattern.PaymentScreen;
 
 import java.util.Map;
-//Strategy pattern is good way to use when app provides multiple options to the user &
-//based on the user selection execute the business rule slightly differently
-//ex. you can pay with card/paypal/money transfer...
 public class PaymentTest extends BaseTest {
 
     private PaymentScreen paymentScreen;
