@@ -12,13 +12,13 @@ public class BaseTest {
 
     protected WebDriver driver;
 
-    @BeforeTest
+    @BeforeMethod
     public void setupDriver(){
         WebDriverManager.chromedriver().setup();
         this.driver = new ChromeDriver();
     }
 
-    @AfterTest
+    @AfterMethod
     public void quitDriver(){
         this.driver.quit();
     }

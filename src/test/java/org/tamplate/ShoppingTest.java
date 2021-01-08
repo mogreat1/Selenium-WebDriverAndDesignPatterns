@@ -9,6 +9,8 @@ import tamplate.ShoppingTemplate;
 
 public class ShoppingTest extends BaseTest {
 
+    //before running change in BaseTest change @BeforeMethod/After on @BeforeTest/After
+
     @Test(dataProvider = "getData")
     public void shoppingTest(ShoppingTemplate shoppingTemplate) {
         shoppingTemplate.shop();
